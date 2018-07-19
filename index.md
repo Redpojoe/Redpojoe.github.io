@@ -4,7 +4,6 @@ layout: default
 
 # Articles
 
-[sort by category](./time)
 
 {% for category in site.categories %}
 <h2>{{ category | first }}</h2>
